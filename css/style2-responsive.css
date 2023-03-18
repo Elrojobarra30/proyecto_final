@@ -1,0 +1,197 @@
+/* Estilos para pantallas pequeñas */
+
+@media only screen and (max-width: 768px) {
+
+/* Navegador */
+    nav ul {
+      text-align: center;
+    }
+  
+    nav li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+/* Portada */
+    .image-portada img {
+      height: 300px;
+    }
+  
+    .image {
+      position: static;
+      display: block;
+      margin: 0 auto;
+      
+    }
+  
+    .image img {
+      width: 150px;
+      height: 150px;
+      margin-top: 35px;
+    }
+  
+    .image-text {
+      position: static;
+      display: block;
+      margin: 10px auto;
+      text-align: center;
+    }
+  
+/* Acerca de */
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 ;
+      padding: 15px;
+      text-align: left;
+      background-color: #2b2b2b;
+      height: 720px;
+      
+    }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .col1 {
+      flex-basis: calc(100% - 20px);
+      margin: 10px;
+    }
+    .col2 {
+      flex-basis: calc(100% - 20px);
+      margin: 10px;
+    }
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      height: auto;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  
+/* Educación */
+    #educacion{
+      padding: 30px;
+    }
+    .education {
+      height: auto;
+    }
+    .education h1 {
+        margin: 0px;
+    }
+  
+    article {
+      height: auto;
+    }
+  
+    i {
+      font-size: 50px;
+      margin-right: 10px;
+    }
+  
+/* Proyectos */
+    .proyecto #container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 ;
+      padding: 15px;
+      text-align: left;
+      background-color: #2b2b2b;
+      height: 400px;
+      
+    }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      height: auto;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    .colproyect1 {
+      flex-basis: calc(100% - 0px);
+      margin: 1px;
+    }
+    .colproyect2  {
+      flex-basis: calc(100% - 10px);
+      margin: 1px;
+      
+    }
+/* Habilidades */
+    #habilidades {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0px ;
+      padding: 15px;
+      text-align: center;
+      background-color: #2b2b2b;
+      height: 720px;
+    }
+    .skill-bar {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+    }
+    .habilidades h1 {
+        margin: 0px;
+    }
+  
+    .bar {
+      height: 20px;
+      margin: 10px 0;
+    }
+  
+    .percentage {
+      margin: 0;
+    }
+  
+/* Experiencia */
+    .experiencia {
+      height: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .experiencia h3 {
+        margin: 0px;
+        text-size-adjust: 9px;
+    }
+  
+    .experiencia-parrafos p {
+      padding: 20px 0;
+    }
+
+/*footer*/
+    .footer a {
+        margin: 0px;
+        padding: 0px;
+    }
+    .fa-linkedin:before {
+        font-size: 20px;
+    }
+    .fa-facebook-f:before {
+        font-size: 20px;
+    }
+    .fa-envelope:before {
+        font-size: 20px;
+    }
+    .fa-instagram:before {
+        font-size: 20px;
+    }    
+  
+  }
+  
+
+
+
